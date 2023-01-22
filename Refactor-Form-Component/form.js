@@ -5,7 +5,7 @@ function TodoForm({addTodo}){
   const handleSubmit = e => {
     e.preventDefault();
     if(!value) return;
-    adddTodo(value);
+    addTodo(value);
     setValue('');
   }
 
